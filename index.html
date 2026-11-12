@@ -20,7 +20,7 @@
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js';
 import {getAuth,onAuthStateChanged,createUserWithEmailAndPassword,signInWithEmailAndPassword,sendPasswordResetEmail,signOut} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js';
 import {getFirestore,doc,setDoc,getDoc,serverTimestamp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
-const firebaseConfig = {apiKey:'PASTE_API_KEY',authDomain:'PASTE_PROJECT_ID.firebaseapp.com',projectId:'PASTE_PROJECT_ID',appId:'PASTE_APP_ID'};
+const firebaseConfig = {apiKey:'AIzaSyB4TS6hLzfKjUYBubUL98Eezo_-kbth8D0',authDomain:'emotion-connect.firebaseapp.com',projectId:'emotion-connect',appId:'PASTE_APP_ID'};
 const configured=!Object.values(firebaseConfig).some(v=>v.includes('PASTE_'));
 let auth=null,db=null,currentStep=0;
 const $=id=>document.getElementById(id);
